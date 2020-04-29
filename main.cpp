@@ -98,7 +98,7 @@ void logger() {
     }  
 
     //displacement
-    float disx = 9.8*sqrt((d[1]-s[1])*(d[2]-s[2]))*0.01/2;
+    float disx = 9.8*sqrt((d[1]-s[1])^2+(d[2]-s[2])^2)*0.01/2;
     float dis5 = 5;
 
     if(disx >= dis5){
